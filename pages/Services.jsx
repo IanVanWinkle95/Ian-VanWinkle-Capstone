@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 export default function ServicesPage() {
     return (
         <div className='ServicesPage'>
-            <Link to="/Services">
-                <button className='ServicesButton'>Services</button>
-            </Link>
+            <h1>Services Page</h1>
+            <p>Welcome to our services page!</p>
+            <Link to="/Home">Back to Home</Link>
         </div>
     )
 }
