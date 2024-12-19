@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
-import './Services.css'
+import './services.css'
 
 export default function Services() {
   const [prices, setPrices] = useState([])
