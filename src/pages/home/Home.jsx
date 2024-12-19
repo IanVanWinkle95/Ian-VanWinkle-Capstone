@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
+import axios from 'axios';
+
+fetch('http://localhost:5000/api/prices')
 
 import image1 from '../images/image1.jpeg'
 import image2 from '../images/image2.jpeg'
