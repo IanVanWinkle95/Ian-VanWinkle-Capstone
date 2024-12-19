@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../navbar/nav.css';
 
 function Nav() {
+    // console.log('Navbar is working')
   return (
-    <nav>
+    <nav className="navbar">
       <ul>
         <li>
           <Link to="/Home">Home</Link>
