@@ -6,6 +6,7 @@ export default function Services() {
   const [prices, setPrices] = useState([])
 
 
+  // Connecting my Frontend to my Backend.
   useEffect(() => {
     axios.get('http://localhost:5000/api/prices')
       .then(response => {
@@ -17,6 +18,7 @@ export default function Services() {
       })
   }, [])
 
+// Make sure backend is running to see prices.
   return (
     <div className="services-page">
       <header className="hero-section">
