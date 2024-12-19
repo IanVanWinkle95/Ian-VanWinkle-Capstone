@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="about-page">
       <header className="about-header">
-        <h1>About Bailey Smith</h1>
+        <h1>About Me</h1>
         <p>Your Beauty Expert</p>
       </header>
 
